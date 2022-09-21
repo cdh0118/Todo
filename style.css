@@ -13,7 +13,7 @@
   }
   
   .background {
-    background: url("images/bg-desktop-dark.jpg") no-repeat;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     background-size: cover;
     width: 100vw;
     height: 40vh;
@@ -166,7 +166,7 @@
     background-color: hsl(236, 33%, 92%);
   }
   body.light .background{
-    background: url("images/bg-desktop-light.jpg") no-repeat;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-size: cover;
     width: 100vw;
     height: 40vh;
